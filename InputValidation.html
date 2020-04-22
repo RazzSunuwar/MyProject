@@ -24,6 +24,8 @@
 			if(x > 10) throw "too high";
 		} catch (err) {
 			message.innerHTML = "Input is " + err;
+		} finally {
+			document.getElementById("demo").value = " ";
 		}
 	}
 </script>
