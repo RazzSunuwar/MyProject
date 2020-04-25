@@ -48,10 +48,54 @@
 // }
 
 // fill()
-function ArrayPractice() {
-	let Laptops = ["HP", "Dell", "MAC"];
-	document.getElementById("demo").innerHTML = Laptops.fill("HP ENVY");
-}
+// function ArrayPractice() {
+// 	let Laptops = ["HP", "Dell", "MAC"];
+// 	document.getElementById("demo").innerHTML = Laptops.fill("HP ENVY");
+// }
 
-// Result: HP ENVY,HP ENVY,HP ENVY 
+// // Result: HP ENVY,HP ENVY,HP ENVY 
+
+// filter()
+// let ages = [32, 16, 33, 38];
+
+// function checkAdult(age) {
+// return age >= 18
+// }
+
+// function ArrayPractice() {
+// 	document.getElementById("demo").innerHTML = ages.filter(checkAdult);
+
+// }
+
+// // Result: 32,33,38
+
+
+// find()
+// let ages = [15, 19, 24, 26, 10];
+
+// function checkAdult(age) {
+// 	return age >= 18
+// }
+
+// function ArrayPractice() {
+// 	document.getElementById("demo").innerHTML = ages.find(checkAdult);
+// }
+
+// // Result: 19, It only return first element which pass a test.
+
+
+// findIndex()
+// let ages = [15, 19, 24, 26];
+
+// function checkAdult(age) {
+// 	return age >= 18;
+// }
+
+// function ArrayPractice() {
+// 	document.getElementById("demo").innerHTML = ages.findIndex(checkAdult);
+// }
+
+// Result: 1, It return index of first element only which pass the text.
+
+
 
