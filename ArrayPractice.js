@@ -97,17 +97,25 @@
 
 // Result: 1, It return index of first element only which pass the text.
 
-// forEach()
-let fruits = ["apple", "mango", "grapes"];
+// // forEach()
+// let fruits = ["apple", "mango", "grapes"];
 
-fruits.forEach(ArrayPractice);
+// fruits.forEach(ArrayPractice);
 
-function ArrayPractice(item, index) {
-	document.getElementById("demo").innerHTML += index + ":" + item + "<br>";
-}
-/* 
-0:apple
-1:mango
-2:grapes */
+// function ArrayPractice(item, index) {
+// 	document.getElementById("demo").innerHTML += index + ":" + item + "<br>";
+// }
+// /* 
+// 0:apple
+// 1:mango
+// 2:grapes */
+
+
+// from()
+let myArray = Array.from("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
+document.getElementById("demo").innerHTML = myArray;
+// Result: A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+
+
 
 
