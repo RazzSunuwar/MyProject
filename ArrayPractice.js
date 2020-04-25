@@ -97,5 +97,17 @@
 
 // Result: 1, It return index of first element only which pass the text.
 
+// forEach()
+let fruits = ["apple", "mango", "grapes"];
+
+fruits.forEach(ArrayPractice);
+
+function ArrayPractice(item, index) {
+	document.getElementById("demo").innerHTML += index + ":" + item + "<br>";
+}
+/* 
+0:apple
+1:mango
+2:grapes */
 
 
