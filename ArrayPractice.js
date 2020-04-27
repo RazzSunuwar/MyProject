@@ -136,10 +136,33 @@
 // // Result: true
 
 // join()
+// let fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let x = document.getElementById("demo");
+// x.innerHTML = fruits.join(' or ') ;
+// // Result: Banana or Orange or Apple or Mango
+
+// keys()
+// let fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let ab = fruits.keys();
+
+// for (x of ab) {
+//     document.getElementById("demo").innerHTML += x + "<br>";
+// }
+// /* 
+// 0
+// 1
+// 2
+// 3
+// */
+
+// length
 let fruits = ["Banana", "Orange", "Apple", "Mango"];
-let x = document.getElementById("demo");
-x.innerHTML = fruits.join(' or ') ;
-// Result: Banana or Orange or Apple or Mango
+let x = document.getElementById("demo").innerHTML = fruits.length;
+// Result: 4
+
+
+
+
 
 
 
