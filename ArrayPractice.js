@@ -135,6 +135,12 @@
 // document.getElementById("demo").innerHTML = n ;
 // // Result: true
 
+// join()
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+let x = document.getElementById("demo");
+x.innerHTML = fruits.join(' or ') ;
+// Result: Banana or Orange or Apple or Mango
+
 
 
 
