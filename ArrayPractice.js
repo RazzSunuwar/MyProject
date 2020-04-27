@@ -156,9 +156,17 @@
 // */
 
 // length
-let fruits = ["Banana", "Orange", "Apple", "Mango"];
-let x = document.getElementById("demo").innerHTML = fruits.length;
-// Result: 4
+// let fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let x = document.getElementById("demo").innerHTML = fruits.length;
+// // Result: 4
+
+
+// lastIndexOf()
+let fruits = ["Banana", "Orange", "Apple", "Mango", "Apple","Banana", "Orange"];
+let a = fruits.lastIndexOf('Apple', 2)
+let x = document.getElementById("demo").innerHTML = a;
+/* Result: 2 because it start counting from index 2. And it returns -1 if it unable to get
+search element */
 
 
 
