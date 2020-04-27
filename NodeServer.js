@@ -1,14 +1,15 @@
 const http = require('http');
-const server = http.createServer(function(req, res){
-    consloe.log("Client connected to http server", req.url)
-    res.write('Hello World');
-    res.end();
+const port = 5050;
+const server = http.createServer(function(request, response){
+    // console.log("Client connected to http server", request.url) //Client connected to http server /home
+    response.write('Hello World');
+    response.end();
 });
-server.listen(5050, function(err, done){
+server.listen(port, function(err, done){
     if(err) {
         console.log("Server listening failed", err);
     } else {
-        console.log("Server listening on port 5050");
+        console.log(`Server listening on port ${port}`);
         console.log("Press Ctrl + C to exit");
     }
 })
