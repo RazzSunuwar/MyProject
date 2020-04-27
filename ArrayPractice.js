@@ -112,9 +112,28 @@
 
 
 // from()
-let myArray = Array.from("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
-document.getElementById("demo").innerHTML = myArray;
-// Result: A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+// let myArray = Array.from("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
+// document.getElementById("demo").innerHTML = myArray;
+// // Result: A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+
+// // includes()
+// let fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let n = fruits.includes('Mango');
+// document.getElementById("demo").innerHTML = n ;
+// // Result: true
+
+// indexof()
+// let fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let n = fruits.indexOf('Mango');
+// document.getElementById("demo").innerHTML = n ;
+// // Result: 3
+
+
+
+
+
+
+
 
 
 
