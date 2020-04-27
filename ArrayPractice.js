@@ -129,6 +129,13 @@
 // // Result: 3
 
 
+// isArray()
+// let fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let n = Array.isArray(fruits);
+// document.getElementById("demo").innerHTML = n ;
+// // Result: true
+
+
 
 
 
