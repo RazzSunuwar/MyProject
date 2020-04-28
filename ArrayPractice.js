@@ -177,13 +177,28 @@
 // // Result: 2,3,4,5
 
 // pop()
-let numbers = [4, 9, 16, 25];
-document.getElementById("demo").innerHTML = numbers;
+// let numbers = [4, 9, 16, 25];
+// document.getElementById("demo").innerHTML = numbers;
+// function ArrayPractice(){
+//     numbers.pop();
+//     document.getElementById("demo").innerHTML = numbers;
+// }
+// // Result: Remove element one by one from last
+
+// prototype
+Array.prototype.myUcase = function (){
+    let i;
+    for(i=0; i< this.length; i++) {
+        this[i] = this[i].toUpperCase();
+    };
+};
+
 function ArrayPractice(){
-    numbers.pop();
-    document.getElementById("demo").innerHTML = numbers;
+    let fruits = ["Banana", "Orange", "Apple", "Mango"]
+    fruits.myUcase();
+    document.getElementById("demo").innerHTML = fruits;
 }
-// Result: Remove element one by one from last
+// Result: BANANA,ORANGE,APPLE,MANGO
 
 
 
