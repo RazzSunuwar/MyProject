@@ -46,6 +46,8 @@
 // function ArrayPractice() {
 // 	document.getElementById("demo").innerHTML = ages.every(checkAdult);
 // }
+// Result: false
+// If all the element pass the test then result will be true, else false
 
 // fill()
 // function ArrayPractice() {
