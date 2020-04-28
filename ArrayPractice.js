@@ -201,10 +201,18 @@
 // // Result: BANANA,ORANGE,APPLE,MANGO
 
 // push()
-let fruits =  ["Banana", "Orange", "Apple", "Mango"];
-fruits.push('Grapes');
-document.getElementById('demo').innerHTML = fruits;
-// Result: Banana,Orange,Apple,Mango,Grapes
+// let fruits =  ["Banana", "Orange", "Apple", "Mango"];
+// fruits.push('Grapes');
+// document.getElementById('demo').innerHTML = fruits;
+// // Result: Banana,Orange,Apple,Mango,Grapes
+
+// reduce()
+let numbers = [123, 50, 23];
+document.getElementById('demo').innerHTML = numbers.reduce(myFunc);
+function myFunc(total, num) {
+    return total - num;
+}
+// 50
 
 
 
