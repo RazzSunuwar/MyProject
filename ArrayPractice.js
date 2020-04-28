@@ -186,19 +186,25 @@
 // // Result: Remove element one by one from last
 
 // prototype
-Array.prototype.myUcase = function (){
-    let i;
-    for(i=0; i< this.length; i++) {
-        this[i] = this[i].toUpperCase();
-    };
-};
+// Array.prototype.myUcase = function (){
+//     let i;
+//     for(i=0; i< this.length; i++) {
+//         this[i] = this[i].toUpperCase();
+//     };
+// };
 
-function ArrayPractice(){
-    let fruits = ["Banana", "Orange", "Apple", "Mango"]
-    fruits.myUcase();
-    document.getElementById("demo").innerHTML = fruits;
-}
-// Result: BANANA,ORANGE,APPLE,MANGO
+// function ArrayPractice(){
+//     let fruits =
+//     fruits.myUcase();
+//     document.getElementById("demo").innerHTML = fruits;
+// }
+// // Result: BANANA,ORANGE,APPLE,MANGO
+
+// push()
+let fruits =  ["Banana", "Orange", "Apple", "Mango"];
+fruits.push('Grapes');
+document.getElementById('demo').innerHTML = fruits;
+// Result: Banana,Orange,Apple,Mango,Grapes
 
 
 
