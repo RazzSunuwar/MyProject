@@ -171,10 +171,20 @@
 // search element */
 
 // map()
+// let numbers = [4, 9, 16, 25];
+// let x = numbers.map(Math.sqrt)
+// document.getElementById("demo").innerHTML = x;
+// // Result: 2,3,4,5
+
+// pop()
 let numbers = [4, 9, 16, 25];
-let x = numbers.map(Math.sqrt)
-document.getElementById("demo").innerHTML = x;
-// Result: 2,3,4,5
+document.getElementById("demo").innerHTML = numbers;
+function ArrayPractice(){
+    numbers.pop();
+    document.getElementById("demo").innerHTML = numbers;
+}
+// Result: Remove element one by one from last
+
 
 
 
