@@ -215,12 +215,29 @@
 // // 50
 
 // reduceRight()
-let numbers = [175, 50, 25];
-document.getElementById("demo").innerHTML = numbers.reduceRight(ArrayPractice);
+// let numbers = [175, 50, 25];
+// document.getElementById("demo").innerHTML = numbers.reduceRight(ArrayPractice);
 
-function ArrayPractice(total, num) {
-    return total - num;
+// function ArrayPractice(total, num) {
+//     return total - num;
+// }
+// // Result: -200
+
+// reverse()
+let Gatgets = ["HP", "DELL", "MAC", "MSI", "ASUS"];
+
+document.getElementById("demo").innerHTML = Gatgets;
+
+function ArrayPractice() {
+    Gatgets.reverse();
+    document.getElementById("demo").innerHTML = Gatgets;   
 }
+
+// Result: Reverse the Array elements
+
+
+
+
 
 
 
