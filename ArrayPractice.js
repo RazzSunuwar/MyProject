@@ -224,16 +224,26 @@
 // // Result: -200
 
 // reverse()
+// let Gatgets = ["HP", "DELL", "MAC", "MSI", "ASUS"];
+
+// document.getElementById("demo").innerHTML = Gatgets;
+
+// function ArrayPractice() {
+//     Gatgets.reverse();
+//     document.getElementById("demo").innerHTML = Gatgets;   
+// }
+// // Result: Reverse the Array elements
+
+// shift()
 let Gatgets = ["HP", "DELL", "MAC", "MSI", "ASUS"];
 
 document.getElementById("demo").innerHTML = Gatgets;
 
 function ArrayPractice() {
-    Gatgets.reverse();
+    Gatgets.shift();    
     document.getElementById("demo").innerHTML = Gatgets;   
 }
-
-// Result: Reverse the Array elements
+// Result remove first item
 
 
 
