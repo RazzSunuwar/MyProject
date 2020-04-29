@@ -207,12 +207,20 @@
 // // Result: Banana,Orange,Apple,Mango,Grapes
 
 // reduce()
-let numbers = [123, 50, 23];
-document.getElementById('demo').innerHTML = numbers.reduce(myFunc);
-function myFunc(total, num) {
+// let numbers = [123, 50, 23];
+// document.getElementById('demo').innerHTML = numbers.reduce(myFunc);
+// function myFunc(total, num) {
+//     return total - num;
+// }
+// // 50
+
+// reduceRight()
+let numbers = [175, 50, 25];
+document.getElementById("demo").innerHTML = numbers.reduceRight(ArrayPractice);
+
+function ArrayPractice(total, num) {
     return total - num;
 }
-// 50
 
 
 
