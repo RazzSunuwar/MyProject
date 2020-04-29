@@ -246,13 +246,25 @@
 // Result remove first item
 
 // slice()
-function ArrayPractice() {
-    let Gatgets = ["HP", "DELL", "MAC", "MSI", "ASUS"];
-    let BestGatgets= Gatgets.slice(0,1);    
-    document.getElementById("demo").innerHTML = BestGatgets;   
-}
-// Result: HP
+// function ArrayPractice() {
+//     let Gatgets = ["HP", "DELL", "MAC", "MSI", "ASUS"];
+//     let BestGatgets= Gatgets.slice(0,1);    
+//     document.getElementById("demo").innerHTML = BestGatgets;   
+// }
+// // Result: HP
 
+// some()
+let ages = [16, 19, 21, 24];
+
+function checkAdult(age) {
+    return age >= 18
+}
+
+function ArrayPractice () {
+document.getElementById("demo").innerHTML = ages.some(checkAdult);
+
+}
+// true
 
 
 
