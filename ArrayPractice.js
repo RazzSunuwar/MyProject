@@ -235,15 +235,23 @@
 // // Result: Reverse the Array elements
 
 // shift()
-let Gatgets = ["HP", "DELL", "MAC", "MSI", "ASUS"];
+// let Gatgets = ["HP", "DELL", "MAC", "MSI", "ASUS"];
 
-document.getElementById("demo").innerHTML = Gatgets;
+// document.getElementById("demo").innerHTML = Gatgets;
 
-function ArrayPractice() {
-    Gatgets.shift();    
-    document.getElementById("demo").innerHTML = Gatgets;   
-}
+// function ArrayPractice() {
+//     Gatgets.shift();    
+//     document.getElementById("demo").innerHTML = Gatgets;   
+// }
 // Result remove first item
+
+// slice()
+function ArrayPractice() {
+    let Gatgets = ["HP", "DELL", "MAC", "MSI", "ASUS"];
+    let BestGatgets= Gatgets.slice(0,1);    
+    document.getElementById("demo").innerHTML = BestGatgets;   
+}
+// Result: HP
 
 
 
