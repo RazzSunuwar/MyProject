@@ -283,12 +283,23 @@
 // //Result: HP ,Dell ,MSI ,ASUS ,MAC
 
 // toString()
-function ArrayPractice() {
-    let Laptops = ["HP", "Dell", "MAC", "MSI", "ASUS"];
-    let x = Laptops.toString();
-    document.getElementById("demo").innerHTML = x;
-};
-// Result: HP,Dell,MAC,MSI,ASUS
+// function ArrayPractice() {
+//     let Laptops = ["HP", "Dell", "MAC", "MSI", "ASUS"];
+//     let x = Laptops.toString();
+//     document.getElementById("demo").innerHTML = x;
+// };
+// // Result: HP,Dell,MAC,MSI,ASUS
+
+// unshift()
+// let Gatgets = ["HP", "Dell", "Asus", "MSI", "Mac"];
+// document.getElementById("demo").innerHTML = Gatgets;
+
+// function ArrayPractice(){
+//     Gatgets.unshift("HP Pavilion")
+//     document.getElementById("demo").innerHTML = Gatgets
+// }
+// // Result: HP Pavilion,HP,Dell,Asus,MSI,Mac
+
 
 
 
