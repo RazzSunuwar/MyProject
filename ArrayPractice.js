@@ -254,17 +254,24 @@
 // // Result: HP
 
 // some()
-let ages = [16, 19, 21, 24];
+// let ages = [16, 19, 21, 24];
 
-function checkAdult(age) {
-    return age >= 18
-}
+// function checkAdult(age) {
+//     return age >= 18
+// }
 
-function ArrayPractice () {
-document.getElementById("demo").innerHTML = ages.some(checkAdult);
+// function ArrayPractice () {
+// document.getElementById("demo").innerHTML = ages.some(checkAdult);
 
-}
-// true
+// }
+// // true
+
+// sort()
+// let ages = [12, 14, 18, 16, 23, 20];
+// let ageSort = ages.sort();
+// document.getElementById("demo").innerHTML = ageSort;
+// Result: 12,14,16,18,20,23
+
 
 
 
