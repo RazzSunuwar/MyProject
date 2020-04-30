@@ -300,6 +300,14 @@
 // }
 // // Result: HP Pavilion,HP,Dell,Asus,MSI,Mac
 
+// valueOf()
+function ArrayPractice(){
+    let Gatgets = ["HP Pavilion", "HP", "Dell", "Asus", "MSI", "Mac"];
+    document.getElementById("demo").innerHTML = Gatgets.valueOf();
+}
+// Result: HP Pavilion,HP,Dell,Asus,MSI,Mac
+
+
 
 
 
