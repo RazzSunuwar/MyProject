@@ -273,15 +273,22 @@
 // Result: 12,14,16,18,20,23
 
 // splice()
-let Laptops = ["HP ", "Dell ", "MAC "];
-document.getElementById("demo").innerHTML = Laptops;
+// let Laptops = ["HP ", "Dell ", "MAC "];
+// document.getElementById("demo").innerHTML = Laptops;
 
+// function ArrayPractice() {
+//     Laptops.splice(2, 0, "MSI ", "ASUS ");
+//     document.getElementById("demo").innerHTML = Laptops;
+// };
+// //Result: HP ,Dell ,MSI ,ASUS ,MAC
+
+// toString()
 function ArrayPractice() {
-    Laptops.splice(2, 0, "MSI ", "ASUS ");
-    document.getElementById("demo").innerHTML = Laptops;
+    let Laptops = ["HP", "Dell", "MAC", "MSI", "ASUS"];
+    let x = Laptops.toString();
+    document.getElementById("demo").innerHTML = x;
 };
-// HP ,Dell ,MSI ,ASUS ,MAC
-
+// Result: HP,Dell,MAC,MSI,ASUS
 
 
 
