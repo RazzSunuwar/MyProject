@@ -272,6 +272,19 @@
 // document.getElementById("demo").innerHTML = ageSort;
 // Result: 12,14,16,18,20,23
 
+// splice()
+let Laptops = ["HP ", "Dell ", "MAC "];
+document.getElementById("demo").innerHTML = Laptops;
+
+function ArrayPractice() {
+    Laptops.splice(2, 0, "MSI ", "ASUS ");
+    document.getElementById("demo").innerHTML = Laptops;
+};
+// HP ,Dell ,MSI ,ASUS ,MAC
+
+
+
+
 
 
 
